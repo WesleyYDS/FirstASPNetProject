@@ -2,8 +2,11 @@
   FirstASPNetProject
 </h2>
 
-<p align="center">This is a public project created to try and learn the very basic start on ASP.NET Core 3.0 content.
-  The tutorial it's based on is Beginning ASP.NET Core 3.0 (by Todd Spatafore) available <a href="https://learning.oreilly.com/videos/beginning-asp-net-core/9781789619355/">here</a> at O`Reilly.
+<p align="center">
+  This is a public project created to try and learn the very basic start on ASP.NET Core 3.0 content.
+</p>
+<p align="center">
+  The aim of this project is to creat a web application following the instructions of the <b>Beginning ASP.NET Core 3.0 (by Todd Spatafore)</b> course available <a href="https://learning.oreilly.com/videos/beginning-asp-net-core/9781789619355/">here</a> at O`Reilly.
 </p>
 
 <p align="center">
