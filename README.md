@@ -6,11 +6,11 @@
   This is a public project created to try and learn the very basic start on ASP.NET Core 3.0 content.
 </p>
 <p align="center">
-  The aim of this project is to creat a web application following the instructions of the <b>Beginning ASP.NET Core 3.0 (by Todd Spatafore)</b> course available <a href="https://learning.oreilly.com/videos/beginning-asp-net-core/9781789619355/">here</a> at O`Reilly.
+  The aim of this project is to create a web application following the instructions of the <b>Beginning ASP.NET Core 3.0 (by Todd Spatafore)</b> course available <a href="https://learning.oreilly.com/videos/beginning-asp-net-core/9781789619355/">here</a> at O`Reilly.
 </p>
 
 <p align="center">
-  <a href="https://github.com/lucasmontano">
+  <a href="https://github.com/WesleyYS">
     <img alt="Made by Wesley Yago" src="https://img.shields.io/badge/made%20by-Wesley%20Yago-orange">
   </a>
 
@@ -26,34 +26,16 @@
 ## Table of Contents
 
 <ul>
-  <li><a href="#-getting-started">Getting Started</a></li>
   <li><a href="#-features">Features</a></li>
   <li><a href="#-support">Support</a></li>
   <li><a href="#-license">License</a></li>
-  <li><a href="#-other-platforms">Other Platforms</a></li>
 </ul>
-
----
-
-## 🚀 Getting Started
-
-🛠 Working on it!
-
-### Setup
-
-🛠 Working on it!
 
 ---
 
 ## 📋 Features
 
-### Documentation
-
-🛠 Working on it!
-
-### Build with
-
-🛠 Working on it!
+This website is capable of calculating how old the user is by an input date that is compared with today's date. It also shows a "Happy Birthday" message when the user is completing another year of life at this very day. The main language used is Brazilian Portuguese, my mother language.
 
 ---
 

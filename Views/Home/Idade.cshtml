@@ -1,0 +1,28 @@
+﻿@model User
+
+@{
+    ViewData["Title"] = "Calcular Idade";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Calcule a sua idade</h1>
+    <div>
+    <form asp-controller="Home" asp-action="Idade" method="post">
+        <div>
+            <p>Informe a sua data de nascimento:</p>
+            <div>
+                <p><input asp-for="dataNascimento" type="date"/></p>
+                <span asp-validation-for="dataNascimento"></span>
+                <p><button type="submit">Enviar</button></p>
+            </div>
+        </div>
+    </form>
+    </div>
+    <hr>
+    <div>
+        <p>Se você nasceu na data @Model.dataNascimento.ToString("dd/MM/yyyy") você tem:</p>
+        <p>@Model.CompararData(@Model.dataNascimento) ano(s).</p>
+        <p><u>@Model.HappyBirthday(@Model.dataNascimento)</u></p>
+    </div>
+
+</div>
