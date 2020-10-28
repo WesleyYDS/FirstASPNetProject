@@ -1,4 +1,5 @@
 ﻿@model User
+@using System.Globalization
 
 @{
     ViewData["Title"] = "Calcular Idade";
@@ -20,9 +21,11 @@
     </div>
     <hr>
     <div>
-        <p>Se você nasceu na data @Model.dataNascimento.ToString("dd/MM/yyyy") você tem:</p>
-        <p>@Model.CompararData(@Model.dataNascimento) ano(s).</p>
-        <p><u>@Model.HappyBirthday(@Model.dataNascimento)</u></p>
+        <p>Se você nasceu na data @Model.dataNascimento.ToString("dd/MM/yyyy"):</p>
+        <p>@Model.ExibirTempoDeVida()</p>
+        <p>Você nasceu num(a) @Model.ExibirDiaDaSemana().</p>
+        <p>Seu signo solar é @Model.DescobrirSigno().</p>
+        <p><u>@Model.DesejarFelizAniversario()</u></p>
     </div>
 
 </div>

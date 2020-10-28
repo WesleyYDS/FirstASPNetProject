@@ -33,9 +33,51 @@
 
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [.NET Core 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+
+### Setup
+
+Instructions to use:
+- download or clone the repo
+- run a Shell prompt inside the project's main folder (FirstASPNetProject)
+- enter the following command and press Enter:
+
+```
+dotnet run
+```
+
+- open any browser and go to the website hosted at [https://localhost:5001/](https://localhost:5001/)
+
+---
+
 ## 📋 Features
 
-This website is capable of calculating how old the user is by an input date that is compared with today's date. It also shows a "Happy Birthday" message when the user is completing another year of life at this very day. The main language used is Brazilian Portuguese, my mother language.
+On the page "Idade" (Age) the program receives the user's birth date via a date input field and then when submitted:
+- calculates how old the user is (in years, months and days) by comparing the birth date with today's date.
+- shows what day of the week the person was born on.
+- shows the user's zodiac sign based on the Western horoscope.
+- displays a "Happy Birthday" message when the user is completing another year of life at this very day.
+
+The main idiom used is Brazilian Portuguese, my mother language.
+
+### Documentation
+
+This project uses the following Commit Guidelines:
+
+- build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+- ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+- docs: Documentation only changes
+- feat: A new feature
+- fix: A bug fix
+- perf: A code change that improves performance
+- refactor: A code change that neither fixes a bug nor adds a feature
+- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- test: Adding missing tests or correcting existing tests
 
 ---
 
